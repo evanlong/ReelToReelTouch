@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5F9E4D15855C2C00986944 /* LWReelToReelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5F9E4B15855C2C00986944 /* LWReelToReelViewController.m */; };
+		FF5F9E4E15855C2C00986944 /* LWReelToReelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5F9E4C15855C2C00986944 /* LWReelToReelViewController.xib */; };
+		FFA924E0158534D90049C0B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924DF158534D90049C0B4 /* UIKit.framework */; };
+		FFA924E2158534D90049C0B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924E1158534D90049C0B4 /* Foundation.framework */; };
+		FFA924E4158534D90049C0B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924E3158534D90049C0B4 /* CoreGraphics.framework */; };
+		FFA924EA158534D90049C0B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA924E8158534D90049C0B4 /* InfoPlist.strings */; };
+		FFA924EC158534D90049C0B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA924EB158534D90049C0B4 /* main.m */; };
+		FFA924F0158534D90049C0B4 /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA924EF158534D90049C0B4 /* LWAppDelegate.m */; };
+		FFA9250615853E750049C0B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA9250515853E750049C0B4 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5F9E4A15855C2C00986944 /* LWReelToReelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWReelToReelViewController.h; sourceTree = "<group>"; };
+		FF5F9E4B15855C2C00986944 /* LWReelToReelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWReelToReelViewController.m; sourceTree = "<group>"; };
+		FF5F9E4C15855C2C00986944 /* LWReelToReelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWReelToReelViewController.xib; sourceTree = "<group>"; };
+		FFA924DB158534D90049C0B4 /* ReelToReel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelToReel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA924DF158534D90049C0B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFA924E1158534D90049C0B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFA924E3158534D90049C0B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFA924E7158534D90049C0B4 /* ReelToReel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReelToReel-Info.plist"; sourceTree = "<group>"; };
+		FFA924E9158534D90049C0B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFA924EB158534D90049C0B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFA924ED158534D90049C0B4 /* ReelToReel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReelToReel-Prefix.pch"; sourceTree = "<group>"; };
+		FFA924EE158534D90049C0B4 /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
+		FFA924EF158534D90049C0B4 /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
+		FFA9250515853E750049C0B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA924D8158534D90049C0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9250615853E750049C0B4 /* AVFoundation.framework in Frameworks */,
+				FFA924E0158534D90049C0B4 /* UIKit.framework in Frameworks */,
+				FFA924E2158534D90049C0B4 /* Foundation.framework in Frameworks */,
+				FFA924E4158534D90049C0B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA924D0158534D90049C0B4 = {
+			isa = PBXGroup;
+			children = (
+				FFA924E5158534D90049C0B4 /* ReelToReel */,
+				FFA924DE158534D90049C0B4 /* Frameworks */,
+				FFA924DC158534D90049C0B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA924DC158534D90049C0B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA924DB158534D90049C0B4 /* ReelToReel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA924DE158534D90049C0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9250515853E750049C0B4 /* AVFoundation.framework */,
+				FFA924DF158534D90049C0B4 /* UIKit.framework */,
+				FFA924E1158534D90049C0B4 /* Foundation.framework */,
+				FFA924E3158534D90049C0B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA924E5158534D90049C0B4 /* ReelToReel */ = {
+			isa = PBXGroup;
+			children = (
+				FF5F9E4A15855C2C00986944 /* LWReelToReelViewController.h */,
+				FF5F9E4B15855C2C00986944 /* LWReelToReelViewController.m */,
+				FF5F9E4C15855C2C00986944 /* LWReelToReelViewController.xib */,
+				FFA924EE158534D90049C0B4 /* LWAppDelegate.h */,
+				FFA924EF158534D90049C0B4 /* LWAppDelegate.m */,
+				FFA924E6158534D90049C0B4 /* Supporting Files */,
+			);
+			path = ReelToReel;
+			sourceTree = "<group>";
+		};
+		FFA924E6158534D90049C0B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA924E7158534D90049C0B4 /* ReelToReel-Info.plist */,
+				FFA924E8158534D90049C0B4 /* InfoPlist.strings */,
+				FFA924EB158534D90049C0B4 /* main.m */,
+				FFA924ED158534D90049C0B4 /* ReelToReel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA924DA158534D90049C0B4 /* ReelToReel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA924F9158534DA0049C0B4 /* Build configuration list for PBXNativeTarget "ReelToReel" */;
+			buildPhases = (
+				FFA924D7158534D90049C0B4 /* Sources */,
+				FFA924D8158534D90049C0B4 /* Frameworks */,
+				FFA924D9158534D90049C0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReelToReel;
+			productName = ReelToReel;
+			productReference = FFA924DB158534D90049C0B4 /* ReelToReel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA924D2158534D90049C0B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LW;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FFA924D5158534D90049C0B4 /* Build configuration list for PBXProject "ReelToReel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFA924D0158534D90049C0B4;
+			productRefGroup = FFA924DC158534D90049C0B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA924DA158534D90049C0B4 /* ReelToReel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA924D9158534D90049C0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA924EA158534D90049C0B4 /* InfoPlist.strings in Resources */,
+				FF5F9E4E15855C2C00986944 /* LWReelToReelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA924D7158534D90049C0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA924EC158534D90049C0B4 /* main.m in Sources */,
+				FFA924F0158534D90049C0B4 /* LWAppDelegate.m in Sources */,
+				FF5F9E4D15855C2C00986944 /* LWReelToReelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA924E8158534D90049C0B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA924E9158534D90049C0B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA924F7158534DA0049C0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFA924F8158534DA0049C0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA924FA158534DA0049C0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReelToReel/ReelToReel-Prefix.pch";
+				INFOPLIST_FILE = "ReelToReel/ReelToReel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFA924FB158534DA0049C0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReelToReel/ReelToReel-Prefix.pch";
+				INFOPLIST_FILE = "ReelToReel/ReelToReel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA924D5158534D90049C0B4 /* Build configuration list for PBXProject "ReelToReel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA924F7158534DA0049C0B4 /* Debug */,
+				FFA924F8158534DA0049C0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA924F9158534DA0049C0B4 /* Build configuration list for PBXNativeTarget "ReelToReel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA924FA158534DA0049C0B4 /* Debug */,
+				FFA924FB158534DA0049C0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA924D2158534D90049C0B4 /* Project object */;
+}
