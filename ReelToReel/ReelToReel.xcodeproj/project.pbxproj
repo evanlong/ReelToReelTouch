@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FF5F9E4D15855C2C00986944 /* LWReelToReelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5F9E4B15855C2C00986944 /* LWReelToReelViewController.m */; };
 		FF5F9E4E15855C2C00986944 /* LWReelToReelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5F9E4C15855C2C00986944 /* LWReelToReelViewController.xib */; };
+		FF5F9E541585759200986944 /* backing.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5F9E511585759200986944 /* backing.png */; };
+		FF5F9E551585759200986944 /* left_reel.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5F9E521585759200986944 /* left_reel.png */; };
+		FF5F9E561585759200986944 /* right_reel.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5F9E531585759200986944 /* right_reel.png */; };
+		FF5F9E5815857B4300986944 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5F9E5715857B4300986944 /* QuartzCore.framework */; };
 		FFA924E0158534D90049C0B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924DF158534D90049C0B4 /* UIKit.framework */; };
 		FFA924E2158534D90049C0B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924E1158534D90049C0B4 /* Foundation.framework */; };
 		FFA924E4158534D90049C0B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA924E3158534D90049C0B4 /* CoreGraphics.framework */; };
@@ -22,6 +26,10 @@
 		FF5F9E4A15855C2C00986944 /* LWReelToReelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWReelToReelViewController.h; sourceTree = "<group>"; };
 		FF5F9E4B15855C2C00986944 /* LWReelToReelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWReelToReelViewController.m; sourceTree = "<group>"; };
 		FF5F9E4C15855C2C00986944 /* LWReelToReelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWReelToReelViewController.xib; sourceTree = "<group>"; };
+		FF5F9E511585759200986944 /* backing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backing.png; sourceTree = "<group>"; };
+		FF5F9E521585759200986944 /* left_reel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_reel.png; sourceTree = "<group>"; };
+		FF5F9E531585759200986944 /* right_reel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_reel.png; sourceTree = "<group>"; };
+		FF5F9E5715857B4300986944 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FFA924DB158534D90049C0B4 /* ReelToReel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelToReel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA924DF158534D90049C0B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFA924E1158534D90049C0B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5F9E5815857B4300986944 /* QuartzCore.framework in Frameworks */,
 				FFA9250615853E750049C0B4 /* AVFoundation.framework in Frameworks */,
 				FFA924E0158534D90049C0B4 /* UIKit.framework in Frameworks */,
 				FFA924E2158534D90049C0B4 /* Foundation.framework in Frameworks */,
@@ -50,9 +59,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF5F9E4F1585758200986944 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF5F9E501585758700986944 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF5F9E501585758700986944 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF5F9E511585759200986944 /* backing.png */,
+				FF5F9E521585759200986944 /* left_reel.png */,
+				FF5F9E531585759200986944 /* right_reel.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		FFA924D0158534D90049C0B4 = {
 			isa = PBXGroup;
 			children = (
+				FF5F9E4F1585758200986944 /* Resources */,
 				FFA924E5158534D90049C0B4 /* ReelToReel */,
 				FFA924DE158534D90049C0B4 /* Frameworks */,
 				FFA924DC158534D90049C0B4 /* Products */,
@@ -70,6 +98,7 @@
 		FFA924DE158534D90049C0B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF5F9E5715857B4300986944 /* QuartzCore.framework */,
 				FFA9250515853E750049C0B4 /* AVFoundation.framework */,
 				FFA924DF158534D90049C0B4 /* UIKit.framework */,
 				FFA924E1158534D90049C0B4 /* Foundation.framework */,
@@ -155,6 +184,9 @@
 			files = (
 				FFA924EA158534D90049C0B4 /* InfoPlist.strings in Resources */,
 				FF5F9E4E15855C2C00986944 /* LWReelToReelViewController.xib in Resources */,
+				FF5F9E541585759200986944 /* backing.png in Resources */,
+				FF5F9E551585759200986944 /* left_reel.png in Resources */,
+				FF5F9E561585759200986944 /* right_reel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
