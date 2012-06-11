@@ -135,15 +135,15 @@
     
     CABasicAnimation *leftReelAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
     leftReelAnimation.fromValue = [NSNumber numberWithFloat:[leftRotation floatValue]];
-    leftReelAnimation.toValue = [NSNumber numberWithFloat:M_PI * -2];
-    leftReelAnimation.duration = 4.5f;
+    leftReelAnimation.toValue = [NSNumber numberWithFloat:(M_PI * -2) + [leftRotation floatValue]];
+    leftReelAnimation.duration = 5.0f;
     leftReelAnimation.repeatCount = MAXFLOAT;
     [self.leftReelImageView.layer addAnimation:leftReelAnimation forKey:@"leftReel"];
     
     CABasicAnimation *rightReelAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
     rightReelAnimation.fromValue = [NSNumber numberWithFloat:[rightRotation floatValue]];
-    rightReelAnimation.toValue = [NSNumber numberWithFloat:M_PI * -2];
-    rightReelAnimation.duration = 4.5f;
+    rightReelAnimation.toValue = [NSNumber numberWithFloat:(M_PI * -2) + [rightRotation floatValue]];
+    rightReelAnimation.duration = 5.0f;
     rightReelAnimation.repeatCount = MAXFLOAT;
     [self.rightReelImageView.layer addAnimation:rightReelAnimation forKey:@"rightReel"];
 }
