@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+    <link href="static/spg.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32683745-1']);
+      _gaq.push(['_setDomainName', 'evanlong.info']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12 header">
+          {{ header }}
+        </div>
+      </div>
+      <div class="row middle">
+        <div class="span2 sidebar">
+          <ul>
+            {% for l in links %}
+            <li><a href="{{ l.link }}">{{ l.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="span8 content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+pre {
+    white-space: pre;
+    overflow: auto;
+    word-wrap: normal;
+}
+a {
+  color: #0090ff;
+}
+p {
+  font-family: Verdana,Sans,Arial;
+  font-size: 12pt;
+  margin-bottom: 15px;
+}
+body {
+  font-family: Verdana,Sans,Arial;
+  font-size: 12pt;
+  margin-bottom: 30px;
+}
+.header {
+  font-family: "Courier New", Courier, Mono;
+  font-size: 32pt;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 100%;
+}
+.sidebar {
+  font-family: Verdana,Sans,Arial;
+  font-size: 14pt;
+  padding-top: 20px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar li {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .sidebar {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .sidebar li {
+    display: inline;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  .header {
+    margin-bottom: 0px;
+  }
+}
