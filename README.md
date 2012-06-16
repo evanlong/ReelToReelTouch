@@ -5,5 +5,5 @@ recorder.
 
 Here is a preview:
 
-![app screen shot](http://files.evanlong.info/rsynced/app.png)
+![app screen shot](http://files.evanlong.info/rsynced/app2.png)
 
